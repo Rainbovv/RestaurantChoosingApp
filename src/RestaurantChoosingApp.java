@@ -25,20 +25,20 @@ class VeganRestaurant {
 		  
 		static void printAddress() {    	  
 			System.out.println("-- UpTown Str 77/B, Maxicity               --");
-        }
+                }
 	}
 	  
-    static class Menu {    	  	
-    	static double getPrice() {    		
-    		return 50.00;    		
-        }
-    }
-    
-    static class SpecialMenu {    	
-    	static double getPrice() {
-    		return 200.00;
+	static class Menu {    	  	
+    		static double getPrice() {    		
+    			return 50.00;    		
+        	}
     	}
-    }
+    
+    	static class SpecialMenu {    	
+    		static double getPrice() {
+    			return 200.00;
+    		}
+    	}
 }
 
 class SushiRestaurant {	
@@ -66,7 +66,7 @@ class SushiRestaurant {
 		
 	static class SpecialMenu{		
 		static double getPrice() {   		
-    		return 300.00;
+    			return 300.00;
 		}
 	}
 }
