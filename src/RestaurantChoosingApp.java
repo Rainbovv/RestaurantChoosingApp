@@ -19,8 +19,7 @@ class VeganRestaurant {
 		static void printMenu() {			
 			printName();
 			printAddress();	  
-			menuTemp(Menu.getPrice(),SpecialMenu.getPrice());
-			
+			menuTemp(Menu.getPrice(),SpecialMenu.getPrice());			
 		}
 		  
 		static void printAddress() {    	  
